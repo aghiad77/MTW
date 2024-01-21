@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rectangle_grey from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:topRightRadius="54dp" android:topLeftRadius="54dp" />
+	<solid android:color="@color/rectangle_grey_color" />
+</shape>
+

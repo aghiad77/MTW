@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MTW</string>
+    <string name="mtw_string">MTW</string>
+    <string name="messages_to_whatsapp_string">Messages To Whatsapp</string>
+    <string name="write_your_message_here_string">write your message here</string>
+    <string name="set_time_ek1_string">SET TIME</string>
+    <string name="upload_files_string">UPLOAD FILES</string>
+    <string name="upload_photo_ek1_string">UPLOAD PHOTO</string>
+</resources>

@@ -1,0 +1,128 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_10_shape">
+
+    <ScrollView android:id="@+id/home_page___1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+            <RelativeLayout
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView android:id="@+id/mtw"
+                    android:fontFamily="RomanD"
+                    android:textSize="29sp"
+                    android:textColor="@color/mtw_color"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mtw_string" />
+
+                <TextView android:id="@+id/messages_to_whatsapp"
+                    android:fontFamily="RomanD"
+                    android:textSize="14sp"
+                    android:textColor="@color/mtw_color"
+                    android:layout_marginLeft="96dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/messages_to_whatsapp_string" />
+
+                <ImageView android:id="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/messages_to_whatsapp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background"/>
+
+                <View android:id="@+id/rectangle_grey"
+                    android:background="@drawable/rectangle_grey_shape"
+                    android:layout_below="@id/messages_to_whatsapp"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="428dp"
+                    android:layout_height="694dp" />
+
+                <EditText android:id="@+id/editText"
+                    android:fontFamily="RomanD"
+                    android:textSize="14sp"
+                    android:background="@drawable/rectangle_13_shape"
+                    android:textColor="@color/text_black"
+                    android:layout_width="300dp"
+                    android:layout_height="260dp"
+                    android:layout_below="@+id/messages_to_whatsapp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="190dp"
+                    android:hint="@string/write_your_message_here_string"
+                    android:textAlignment="center"
+                    android:textDirection="anyRtl" />
+
+                <ImageView android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/send"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="50dp"/>
+
+                <ImageView android:id="@+id/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/editText"
+                    android:background="@raw/phonesnumbers"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="120dp"
+                    android:visibility="invisible"/>
+
+                <ImageView android:id="@+id/images"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/editText"
+                    android:background="@raw/photos"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="190dp"
+                    android:visibility="invisible"/>
+
+                <ImageView android:id="@+id/upload_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/send"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/upload_photo"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="50dp"/>
+
+                <ImageView android:id="@+id/upload_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/send"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/upload_file"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageView android:id="@+id/set_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/send"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/set_time"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="50dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

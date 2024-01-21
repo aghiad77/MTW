@@ -1,0 +1,56 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/_bg__splash"
+                android:background="@drawable/_bg__splash_shape"
+                android:layout_width="428dp"
+                android:layout_height="926dp" />
+
+            <View
+                android:id="@+id/rectangle_3"
+                android:background="@drawable/rectangle_3_shape"
+                android:layout_width="430dp"
+                android:layout_height="928dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/mtw"
+                    android:fontFamily="RomanD"
+                    android:textSize="50sp"
+                    android:textColor="@color/mtw_color"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mtw_string" />
+
+                <TextView
+                    android:id="@+id/messages_to_whatsapp"
+                    android:fontFamily="RomanD"
+                    android:textSize="14sp"
+                    android:textColor="@color/mtw_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mtw"
+                    android:text="@string/messages_to_whatsapp_string" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="_bg__splash_color">#ffffff</color>
+    <color name="mtw_color">#ffffff</color>
+    <color name="_bg__home_page_color">#ffffff</color>
+    <color name="ellipse_1_color">#ffb27d</color>
+    <color name="rectangle_grey_color">#e4e8eb</color>
+    <color name="rectangle_13_color">#f1f2f3</color>
+    <color name="write_your_message_here_color">#dbdcdc</color>
+    <color name="rectangle_14_color">#b4dae2</color>
+    <color name="rectangle_14_ek1_color">#a8c6de</color>
+    <color name="text_black">#000000</color>
+    <color name="edit_boarder"> #504F4F</color>
+
+</resources>
